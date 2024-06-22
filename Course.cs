@@ -8,8 +8,12 @@ namespace OOP
 {
     public class Course
     {
-        private string _name;
+        public string Name { get; private set; }
 
-        public string Name { get {return _name;} set { _name = value; } }
+        public Course( string name)
+        {
+            Name = name;
+
+        }
     }
 }

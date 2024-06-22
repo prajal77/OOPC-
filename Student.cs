@@ -24,19 +24,24 @@ namespace OOP
         }
 */
 
+        //Using constructor
+
+        public Student(string name, int age)
+        {
+            Name = name;
+            Age = age;
+
+        }
+
         //Using C# propertise
-
         private int _age;
-
         public int Age
         {
-           
-
             get
             {
                 return _age;
             }
-            set
+            private set
             {
                 if (value > 0)
                 {
@@ -50,16 +55,12 @@ namespace OOP
             }
         }
 
-        private string _name;
+        /*private string _name;
 
-        public string Name { get { return _name; } set { _name = value; } }
+        public string Name { get { return _name; } set { _name = value; } }*/
+        public string Name { get; private set; }
 
-
-        private double _grade;
-        public double Grade { get { return _grade; } set { _grade = value; } }
-
-       
-
+        public double Grade { get; private set; }
         public void AddCourse(Course course)
         {
             if (courses == null)
@@ -67,6 +68,11 @@ namespace OOP
                 courses = new List<Course>();
             }
             courses.Add(course);
+        }
+
+        public void SetGrade()
+        {
+            Grade = 4.1;
         }
 
         public void DisplayStudent()
