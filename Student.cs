@@ -26,10 +26,11 @@ namespace OOP
 
         //Using constructor
 
-        public Student(string name, int age)
+        public Student(string name, int age, string classRoom)
         {
             Name = name;
             Age = age;
+            ClassRoom = classRoom;
 
         }
 
@@ -59,6 +60,7 @@ namespace OOP
 
         public string Name { get { return _name; } set { _name = value; } }*/
         public string Name { get; private set; }
+        public string ClassRoom { get; set; }
 
         public double Grade { get; private set; }
         public void AddCourse(Course course)

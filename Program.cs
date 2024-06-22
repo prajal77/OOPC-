@@ -4,7 +4,7 @@ using OOP;
 //without constructor
 //Student prajwol = new Student();
 
-Student prajwol = new Student("Prajwol", 23);
+Student prajwol = new Student("Prajwol", 23, "10");
 
 //prajwol.Name = "prajwol";
 //prajwol.Age = 24;
