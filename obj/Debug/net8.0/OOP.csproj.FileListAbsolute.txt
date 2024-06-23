@@ -13,3 +13,7 @@ C:\Users\asus zephyrus\source\repos\OOP\OOP\obj\Debug\net8.0\refint\OOP.dll
 C:\Users\asus zephyrus\source\repos\OOP\OOP\obj\Debug\net8.0\OOP.pdb
 C:\Users\asus zephyrus\source\repos\OOP\OOP\obj\Debug\net8.0\OOP.genruntimeconfig.cache
 C:\Users\asus zephyrus\source\repos\OOP\OOP\obj\Debug\net8.0\ref\OOP.dll
+C:\Users\asus zephyrus\source\repos\OOP\OOP\bin\Debug\net8.0\CarLibrary.dll
+C:\Users\asus zephyrus\source\repos\OOP\OOP\bin\Debug\net8.0\CarLibrary.pdb
+C:\Users\asus zephyrus\source\repos\OOP\OOP\obj\Debug\net8.0\OOP.csproj.AssemblyReference.cache
+C:\Users\asus zephyrus\source\repos\OOP\OOP\obj\Debug\net8.0\OOP.csproj.Up2Date

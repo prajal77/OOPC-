@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CarLibrary/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CarLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CarLibrary/1.0.0": {
+      "type": "project",
+      "path": "../CarLibrary/CarLibrary.csproj",
+      "msbuildProject": "../CarLibrary/CarLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CarLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\asus zephyrus\\.nuget\\packages\\": {},
@@ -39,7 +57,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\CarLibrary\\CarLibrary.csproj": {
+              "projectPath": "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\CarLibrary\\CarLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

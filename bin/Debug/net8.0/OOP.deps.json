@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "OOP/1.0.0": {
+        "dependencies": {
+          "CarLibrary": "1.0.0"
+        },
         "runtime": {
           "OOP.dll": {}
+        }
+      },
+      "CarLibrary/1.0.0": {
+        "runtime": {
+          "CarLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OOP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

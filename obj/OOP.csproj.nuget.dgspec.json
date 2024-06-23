@@ -4,6 +4,21 @@
     "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\OOP\\OOP.csproj": {}
   },
   "projects": {
+    "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\CarLibrary\\CarLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\CarLibrary\\CarLibrary.csproj",
+        "projectName": "CarLibrary",
+        "projectPath": "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\CarLibrary\\CarLibrary.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\OOP\\OOP.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +47,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\CarLibrary\\CarLibrary.csproj": {
+                "projectPath": "C:\\Users\\asus zephyrus\\source\\repos\\OOP\\CarLibrary\\CarLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

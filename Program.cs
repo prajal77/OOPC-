@@ -1,9 +1,10 @@
 ﻿
 
+using CarLibrary;
 using OOP;
 //without constructor
 //Student prajwol = new Student();
-
+/*
 Student prajwol = new Student("Prajwol", 23, "10");
 
 //prajwol.Name = "prajwol";
@@ -18,5 +19,13 @@ prajwol.AddCourse(course);
 prajwol.SetGrade();
 
 
-prajwol.DisplayStudent();
+prajwol.DisplayStudent();*/
+
+//Car functionality
+
+Car car = new Car();
+car.Start();
+car.Accelerate();
+
+
 Console.ReadLine();
