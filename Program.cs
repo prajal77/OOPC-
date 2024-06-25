@@ -21,11 +21,32 @@ prajwol.SetGrade();
 
 prajwol.DisplayStudent();*/
 
-//Car functionality
-
+//Car functionality encapsulation and abstraction
+/*
 Car car = new Car();
 car.Start();
 car.Accelerate();
 
 
 Console.ReadLine();
+*/
+
+//Inheritance
+
+Shape s = new Shape();
+
+s.Draw();
+
+Circle c = new Circle(5);
+
+
+c.Draw();
+c.CalculateArea();
+
+Rectangle r = new Rectangle(5,10);
+
+
+r.Draw();
+r.CalRectangle();
+
+
